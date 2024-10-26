@@ -1,0 +1,11 @@
+#!/bin/bash 
+
+blk='\033[0;30m' red='\033[0;31m' grn='\033[0;32m' ylw='\033[0;33m' 
+blu='\033[0;34m' mag='\033[0;35m' cyan='\033[0;36m' lgry='\033[0;37m' 
+gry='\033[0;90m' lred='\033[0;91m' lgrn='\033[0;92m' lylw='\033[0;93m'
+lblu='\033[0;94m' lmag='\033[0;95m' lcyan='\033[0;96m' white='\033[0;97m' 
+nc='\033[0m' 
+
+printf "\n${grn}Welcome to you Trick Development Environment${nc}\n"
+
+exec "$@"
